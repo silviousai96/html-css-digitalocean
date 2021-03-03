@@ -13,8 +13,8 @@ body {
 /* HEADER */
 
 nav {    
-    padding: 20px 0;
-    
+    padding-top: 15px;
+    padding-bottom: 4px;   
 }
 
 nav a {
@@ -36,4 +36,45 @@ nav .btn {
     text-align: right;
     color: #2580ff;
     font-size: 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('../img/ms-jumbo.jpg');
+    color: white;
+}
+
+.jumbotron h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.sign-in {    
+    padding: 20px 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sign-in h2 {
+    color: #041d4f;
+}
+
+.sign-in h3 {
+    color: #0b70ff;
+}
+
+.sign-in .btn-primary {
+    margin-top: 10px;
+}
+
+.btn_logo_gog {
+    position: relative;
+}
+
+.btn_logo_gog img {
+    width: 4%;
+    position: absolute;
+    left: 10px;
 }
