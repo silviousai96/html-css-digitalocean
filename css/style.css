@@ -16,6 +16,29 @@ body {
     height: 25px;
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 767px) {
+    .small-container {
+        width: 96%;
+    }
+
+    /*designed*/
+    .designed .c-left, .c-right {
+        display: none;
+    }
+    
+    .designed .circles {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .designed .circles {
+        padding-top: 50px;
+    }
+}
+
 /* HEADER */
 
 nav {    
@@ -98,7 +121,7 @@ nav .btn {
 
 /*deploy-scale*/
 .deploy-scale {
-    padding: 30px 0;
+    padding: 40px 0;
     color:#6d7a95;
 }
 
@@ -120,6 +143,7 @@ nav .btn {
 }
 
 .deploy-scale ul li {
+    font-size: 20px;
     padding-left: 5px;
     padding-bottom: 10px;
 }
@@ -127,3 +151,67 @@ nav .btn {
 .deploy-scale h4 {
     color: #041d4f;
 }
+
+
+
+/*designed*/
+
+.designed {
+    background-color: #f3f5f9; 
+    color:#6d7a95;
+    padding: 50px 0;
+}
+
+.designed h2 {
+    color: #041d4f;
+}
+
+.designed p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.designed img {
+    width: 45%;
+}
+
+.c-left,
+.c-right {
+    font-size: 40px;
+}
+
+.c-right {
+    color: #041d4f;
+    padding-left: 10px;
+}
+
+.c-left {
+    padding-right: 8px;
+}
+
+.designed h5 {
+    padding: 10px 0;
+    color: #041d4f;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid #2580ff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle1 {
+    height: 15px;
+    width: 15px;
+    background-color: #2580ff;
+    border: 1px solid #2580ff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
