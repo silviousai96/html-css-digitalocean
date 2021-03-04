@@ -16,6 +16,24 @@ body {
     height: 25px;
 }
 
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid #2580ff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle1 {
+    height: 15px;
+    width: 15px;
+    background-color: #2580ff;
+    border: 1px solid #2580ff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 767px) {
@@ -30,6 +48,10 @@ body {
     
     .designed .circles {
         padding-top: 100px;
+    }
+    /*testimonials*/
+    .testimonials .c-left, .c-right {
+        display: none;
     }
 }
 
@@ -176,17 +198,17 @@ nav .btn {
     width: 45%;
 }
 
-.c-left,
+.designed .c-left,
 .c-right {
     font-size: 40px;
 }
 
-.c-right {
+.designed .c-right {
     color: #041d4f;
     padding-left: 10px;
 }
 
-.c-left {
+.designed .c-left {
     padding-right: 8px;
 }
 
@@ -195,23 +217,8 @@ nav .btn {
     color: #041d4f;
 }
 
-.circle {
-    height: 15px;
-    width: 15px;
-    background-color: white;
-    border: 1px solid #2580ff;
-    border-radius: 50%;
-    display: inline-block;
-}
 
-.circle1 {
-    height: 15px;
-    width: 15px;
-    background-color: #2580ff;
-    border: 1px solid #2580ff;
-    border-radius: 50%;
-    display: inline-block;
-}
+
 
 /*features*/
 
@@ -243,6 +250,84 @@ nav .btn {
     color:  #2580ff;
 }
 
+/* testimonials */
 
+.testimonials {
+    background-color: #f3f5f9; 
+    padding: 30px 0;   
+    position: relative; 
+}
+
+.testimonials h2 {
+    color: #041d4f;
+    padding-bottom: 60px;
+}
+
+.testimonials .c-left {
+    color:#6d7a95;
+}
+
+.testimonials .c-right {
+    color: #041d4f;
+}
+
+.testimonials .c-left {
+    position: absolute;
+    font-size: 25px;
+    right: 76%;
+    bottom: 40%;
+}
+
+.testimonials .c-right {
+    position: absolute;
+    font-size: 25px;
+    left: 76%;
+    bottom: 40%;
+}
+
+.test-rick {    
+    width: 50%;
+    padding: 40px 0;
+    background-color: white;        
+    border-radius: 5px;        
+    margin-bottom: 30px;
+}
+
+.test-rick img {
+    width: 40%;
+    padding-top: 30px;
+}
+
+.test-rick p {
+    font-size: 20px;
+    color: #6d7a95;
+    padding-top: 20px;
+}
+
+.test-rick h5 {
+    color: #041d4f;
+}
+
+.test-rick a {
+    display: block;
+    padding-top: 20px;
+}
+
+/* get-started */
+
+.get-started {
+    background: rgb(0,30,153);
+    background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
+    color: white;
+    padding: 30px 0;
+}
+
+.get-started .btn {
+    margin-top: 10px;
+    border-color: #2580ff;
+    color: #2580ff;
+}
+
+/* FOOTER */
 
 
