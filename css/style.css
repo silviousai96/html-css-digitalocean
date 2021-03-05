@@ -101,7 +101,7 @@ nav .btn {
     font-size: 50px;
 }
 
-.sign-in {    
+.sign-in {        
     padding: 20px 10px;
     background-color: white;
     color: black;
@@ -111,10 +111,12 @@ nav .btn {
 
 .sign-in h2 {
     color: #041d4f;
+    margin-bottom: 7px;
 }
 
 .sign-in h3 {
     color: #0b70ff;
+    margin: 0;
 }
 
 .sign-in .btn-primary {
@@ -330,4 +332,29 @@ nav .btn {
 
 /* FOOTER */
 
+footer {
+    background-color: #031c4e;
+    color: #808ba2;
+    padding: 40px 0;
+}
+
+.socials {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.socials li {
+    display: inline-block;
+    padding-right: 7px;
+    font-size: 18px;
+    
+}
+
+ li a {
+    color: #808ba2; 
+}
+
+footer h4 {
+    color: white;
+}
 
